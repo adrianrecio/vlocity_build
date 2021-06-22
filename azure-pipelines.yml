@@ -22,4 +22,5 @@ steps:
 
 - script: |
     npm install -g @dxatscale/sfpowerscripts
+    sfdx -v
   displayName: 'install sfpowerkit'
