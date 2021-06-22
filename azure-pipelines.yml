@@ -18,7 +18,7 @@ steps:
 - script: |
     npm install --global vlocity@1.9.1
     vlocity help
-  displayName: 'npm install and build'
+  displayName: 'install vlocity_build'
 
 - script: |
     npm install -g @dxatscale/sfpowerscripts
