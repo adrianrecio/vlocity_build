@@ -19,3 +19,7 @@ steps:
     npm install --global vlocity@1.9.1
     vlocity help
   displayName: 'npm install and build'
+
+- script: |
+    echo 'y' | sfdx plugins:install sfpowerkit
+  displayName: 'install sfpowerkit'
