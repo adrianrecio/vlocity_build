@@ -16,6 +16,7 @@ steps:
   displayName: 'Install Node.js'
 
 - script: |
-    npm install
+    npm install --global vlocity@1.9.1
+    vlocity help
     npm run build
   displayName: 'npm install and build'
