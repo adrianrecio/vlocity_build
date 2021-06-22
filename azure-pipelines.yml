@@ -21,5 +21,8 @@ steps:
   displayName: 'npm install and build'
 
 - script: |
-    echo 'y' | sfdx plugins:install sfpowerkit
+    npm install -g @dxatscale/sfpowerscripts
+    sfdx COMMAND
+    sfdx (-v|--version|version)
+    sfdx --help [COMMAND]
   displayName: 'install sfpowerkit'
