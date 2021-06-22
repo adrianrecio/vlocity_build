@@ -19,10 +19,13 @@ steps:
     npm install --global vlocity@1.9.1
     vlocity help
   displayName: 'install vlocity_build'
-
+- script: |
+    npm install sfdx-cli --global
+    sfdx commands
+  displayName: 'install salesforce cli'
 - script: |
     npm install -g @dxatscale/sfpowerscripts
     sfdx COMMAND
     sfdx -v
-    sfdx --help
+    sfdx --help [COMMAND]
   displayName: 'install sfpowerkit'
